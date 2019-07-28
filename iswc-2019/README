@@ -1,0 +1,13 @@
+This folder contains:
+- clipper.jar 				  -> compiled clipper with both methods for TBox saturation
+- run_C-opt_and_C-orig_over_OxfordRepo.sh -> a script that runs both versions of clipper against 
+					     the selected ontology files in Oxford Repo (221 files) as 
+					     per criteria explained in the Evaluation Section of the paper.
+					     The successfull/failed run is reported inside the folder
+					     OxfordRepo in the file "results.output"
+- folder OxfordRepo			  -> contains 221 selected ontologies from OxfordOntology Repository
+- MappingAnalysisData			  -> contains mapping filed for NPD, Slegge and UOBM, and the
+					     the file "mapping analysis-data.ods" with the reported 
+					     non-conflicting/conflicting mappings for each mappings sharing 
+					     the same function symbol in the head. Analysis are presented
+					     in three separate sheets.
